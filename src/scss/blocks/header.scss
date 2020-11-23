@@ -1,132 +1,126 @@
 .header {
-    background: url(./../../../img/header-bg.png) top center no-repeat;
-    background-size: cover;
-    position: relative;
+  background: url(./../img/header-bg.png) top center no-repeat;
+  background-size: cover;
+  position: relative;
 
-    .header-wrap {
-        padding: 0 20px;
+  .header-wrap {
+    padding: 0 20px;
 
-        .header-menu {
-            padding-top: 25px;
-            
-            .navbar {
+    .header-menu {
+      padding-top: 25px;
 
-                .fas {
-                    color: $yellow;
-                }
-
-                .navbar-collapse {
-                    .navbar-nav {
-                        .nav-item {
-                            margin-left: 45px;
-                            transition: all 0.3s;
-    
-                            .nav-link {
-                                color: $text;
-    
-                                &:hover {
-                                    cursor: pointer;
-                                    border-bottom: 1px solid $text;
-                                }
-                            }
-    
-                            &:first-child {
-                                margin-left: 0;
-                            }
-                        }
-                        
-                        .active {
-
-                            .nav-link {
-                                color: $yellow;
-                                font-weight: 700;
-                                border-bottom: 1px solid $yellow;
-
-    
-                                &:hover {
-                                    border-bottom: 1px solid $yellow;
-                                }
-                            }
-                            
-                        }
-                    }
-                }
-            }
+      .navbar {
+        .fas {
+          color: $yellow;
         }
 
-        .header-text {
-            padding-top: 22%;
-            padding-bottom: 51%;
-            max-width: 520px;
+        .navbar-collapse {
+          .navbar-nav {
+            .nav-item {
+              margin-left: 45px;
+              transition: all 0.3s;
 
-            h1 {
+              .nav-link {
+                color: $text;
+
+                &:hover {
+                  cursor: pointer;
+                  border-bottom: 1px solid $text;
+                }
+              }
+
+              &:first-child {
+                margin-left: 0;
+              }
+            }
+
+            .active {
+              .nav-link {
                 color: $yellow;
-                margin-bottom: 15px;
-            }
+                font-weight: 700;
+                border-bottom: 1px solid $yellow;
 
-            p {
-                max-width: 480px;
+                &:hover {
+                  border-bottom: 1px solid $yellow;
+                }
+              }
             }
-
-            .btn {
-                margin-top: 40px;
-                padding: 23px 33px;
-                background: $yellow;
-                color: $white;
-                border: none;
-                border-radius: 33px;
-                font-size: 18px;
-                letter-spacing: 1px;
-            }
+          }
         }
+      }
     }
+
+    .header-text {
+      padding-top: 22%;
+      padding-bottom: 51%;
+      max-width: 520px;
+
+      h1 {
+        color: $yellow;
+        margin-bottom: 15px;
+      }
+
+      p {
+        max-width: 480px;
+      }
+
+      .btn {
+        margin-top: 40px;
+        padding: 23px 33px;
+        background: $yellow;
+        color: $white;
+        border: none;
+        border-radius: 33px;
+        font-size: 18px;
+        letter-spacing: 1px;
+      }
+    }
+  }
 }
 
-
-
 @media only screen and (max-width: 830px) {
-    .header {
-        .header-wrap {
-            .header-text {
-                max-width: 440px;
-                
-                h1 {
-                    font-size: 34px;
-                    transition: all 0.5s;
-                }
+  .header {
+    .header-wrap {
+      .header-text {
+        max-width: 440px;
 
-                p {
-                    max-width: 370px;
-                }
-
-                .btn {
-                    border: 1px solid $white;
-                }
-            }
+        h1 {
+          font-size: 34px;
+          transition: all 0.5s;
         }
+
+        p {
+          max-width: 370px;
+        }
+
+        .btn {
+          border: 1px solid $white;
+        }
+      }
     }
+  }
 }
 
 @media only screen and (max-width: 590px) {
-    .header {
-        .header-wrap {
-            .header-text {
-                padding-top: 17%;
-                transition: all 0.5s;
-                
-                h1 {
-                    text-shadow: #1A4E69 2px 2px 1px; 
-                }
+  .header {
+    .header-wrap {
+      .header-text {
+        padding-top: 17%;
+        transition: all 0.5s;
 
-                p {
-                    text-shadow: #fff 1px 1px 0;
-                }
-
-                .btn {
-                    padding: 17px 27px;
-                    transition: all 0.5s;
-                }
-            }
+        h1 {
+          text-shadow: #1a4e69 2px 2px 1px;
         }
+
+        p {
+          text-shadow: #fff 1px 1px 0;
+        }
+
+        .btn {
+          padding: 17px 27px;
+          transition: all 0.5s;
+        }
+      }
     }
+  }
 }
