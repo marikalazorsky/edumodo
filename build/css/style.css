@@ -63,29 +63,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   margin: 0 auto; }
 
 p {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 18px;
   line-height: 26px;
   color: #5a6e79; }
 
 a {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none; }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 56px;
   color: #252c3a; }
 
 h2 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
   color: #fff; }
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 30px; }
 
 .red {
   color: #f9703a; }
@@ -453,3 +460,115 @@ h2 {
       margin-right: 0; }
     .pages .pages-wrap .pages-block .container .row .col-md-4:nth-child(3n) {
       margin-right: 0; } }
+
+.contact {
+  background: #252c3a; }
+  .contact .contact-wrap {
+    padding: 80px 20px; }
+    .contact .contact-wrap .col-lg-2,
+    .contact .contact-wrap .col-lg-3,
+    .contact .contact-wrap .col-lg-4 {
+      margin-bottom: 30px; }
+      .contact .contact-wrap .col-lg-2 p,
+      .contact .contact-wrap .col-lg-2 a,
+      .contact .contact-wrap .col-lg-3 p,
+      .contact .contact-wrap .col-lg-3 a,
+      .contact .contact-wrap .col-lg-4 p,
+      .contact .contact-wrap .col-lg-4 a {
+        margin: 12px 0;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        line-height: 22px;
+        color: #969595;
+        display: inline-block; }
+      .contact .contact-wrap .col-lg-2 .programs,
+      .contact .contact-wrap .col-lg-3 .programs,
+      .contact .contact-wrap .col-lg-4 .programs {
+        width: 100%; }
+      .contact .contact-wrap .col-lg-2 .contact-icons,
+      .contact .contact-wrap .col-lg-3 .contact-icons,
+      .contact .contact-wrap .col-lg-4 .contact-icons {
+        border-top: 2px solid #303744;
+        padding-top: 25px; }
+        .contact .contact-wrap .col-lg-2 .contact-icons .fab,
+        .contact .contact-wrap .col-lg-3 .contact-icons .fab,
+        .contact .contact-wrap .col-lg-4 .contact-icons .fab {
+          color: #4a4a4a;
+          width: 18px;
+          height: 18px;
+          margin-right: 8px;
+          -webkit-transition: all 0.3s;
+          -o-transition: all 0.3s;
+          transition: all 0.3s; }
+          .contact .contact-wrap .col-lg-2 .contact-icons .fab:hover,
+          .contact .contact-wrap .col-lg-3 .contact-icons .fab:hover,
+          .contact .contact-wrap .col-lg-4 .contact-icons .fab:hover {
+            color: #0089fd;
+            cursor: pointer; }
+      .contact .contact-wrap .col-lg-2 span,
+      .contact .contact-wrap .col-lg-3 span,
+      .contact .contact-wrap .col-lg-4 span {
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+        color: #6b6b6b; }
+      .contact .contact-wrap .col-lg-2 li a,
+      .contact .contact-wrap .col-lg-3 li a,
+      .contact .contact-wrap .col-lg-4 li a {
+        cursor: pointer; }
+      .contact .contact-wrap .col-lg-2 .p-email,
+      .contact .contact-wrap .col-lg-3 .p-email,
+      .contact .contact-wrap .col-lg-4 .p-email {
+        font-size: 13px; }
+      .contact .contact-wrap .col-lg-2 .contact-form,
+      .contact .contact-wrap .col-lg-3 .contact-form,
+      .contact .contact-wrap .col-lg-4 .contact-form {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+        .contact .contact-wrap .col-lg-2 .contact-form input,
+        .contact .contact-wrap .col-lg-2 .contact-form button,
+        .contact .contact-wrap .col-lg-3 .contact-form input,
+        .contact .contact-wrap .col-lg-3 .contact-form button,
+        .contact .contact-wrap .col-lg-4 .contact-form input,
+        .contact .contact-wrap .col-lg-4 .contact-form button {
+          border: none; }
+        .contact .contact-wrap .col-lg-2 .contact-form input,
+        .contact .contact-wrap .col-lg-3 .contact-form input,
+        .contact .contact-wrap .col-lg-4 .contact-form input {
+          padding: 15px 0 15px 20px;
+          width: 70%;
+          font-family: "Open Sans", sans-serif;
+          font-size: 12px;
+          color: #5a6e79; }
+        .contact .contact-wrap .col-lg-2 .contact-form button,
+        .contact .contact-wrap .col-lg-3 .contact-form button,
+        .contact .contact-wrap .col-lg-4 .contact-form button {
+          padding: 14px;
+          font-family: "Roboto", sans-serif;
+          font-size: 12px;
+          text-transform: uppercase;
+          color: #fff;
+          background-color: #feb250; }
+
+@media only screen and (max-width: 750px) {
+  .contact .contact-wrap {
+    padding: 40px 20px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+    .contact .contact-wrap .col-lg-2 .contact-icons,
+    .contact .contact-wrap .col-lg-3 .contact-icons,
+    .contact .contact-wrap .col-lg-4 .contact-icons {
+      padding-top: 10px;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+    .contact .contact-wrap .col-lg-2 h3,
+    .contact .contact-wrap .col-lg-3 h3,
+    .contact .contact-wrap .col-lg-4 h3 {
+      margin-bottom: 10px;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; } }
